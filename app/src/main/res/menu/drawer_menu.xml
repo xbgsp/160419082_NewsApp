@@ -3,11 +3,6 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/itemMail"
-        android:icon="@drawable/ic_baseline_mail_outline_24"
-        android:title="Mail"
-        app:showAsAction="always" />
-    <item
         android:id="@+id/itemFaq"
         android:icon="@drawable/ic_baseline_question_answer_24"
         android:title="FAQ"

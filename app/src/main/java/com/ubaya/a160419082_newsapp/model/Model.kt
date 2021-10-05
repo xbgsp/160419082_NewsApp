@@ -13,9 +13,3 @@ data class MyNews(
     val description:String?,
     val url:String?
 )
-
-data class Mail(
-    val title:String?,
-    val type:String?,
-    val time:String?
-)
