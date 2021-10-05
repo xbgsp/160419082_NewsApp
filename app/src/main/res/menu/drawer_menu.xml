@@ -8,6 +8,11 @@
         android:title="Mail"
         app:showAsAction="always" />
     <item
+        android:id="@+id/itemFaq"
+        android:icon="@drawable/ic_baseline_question_answer_24"
+        android:title="FAQ"
+        app:showAsAction="always" />
+    <item
         android:id="@+id/itemLogin"
         android:icon="@drawable/ic_baseline_login_24"
         android:title="Login"

@@ -86,4 +86,9 @@
             android:id="@+id/actionProfile"
             app:destination="@id/itemProfile" />
     </fragment>
+    <fragment
+        android:id="@+id/itemFaq"
+        android:name="com.ubaya.a160419082_newsapp.view.FaqFragment"
+        android:label="FAQ"
+        tools:layout="@layout/fragment_faq" />
 </navigation>
