@@ -4,13 +4,16 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Bagus_2/Documents/Tugas/TugasKumpul2/160419082_NewsApp/app/src/main/res/layout/activity_main.xml" value="0.264" />
-        <entry key="..\:/Users/Bagus_2/Documents/Tugas/TugasKumpul2/160419082_NewsApp/app/src/main/res/layout/fragment_login.xml" value="0.17798913043478262" />
+        <entry key="..\:/Users/Bagus_2/Documents/Tugas/TugasKumpul2/160419082_NewsApp/app/src/main/res/layout/fragment_faq.xml" value="0.259375" />
+        <entry key="..\:/Users/Bagus_2/Documents/Tugas/TugasKumpul2/160419082_NewsApp/app/src/main/res/layout/fragment_login.xml" value="0.4326672458731538" />
         <entry key="..\:/Users/Bagus_2/Documents/Tugas/TugasKumpul2/160419082_NewsApp/app/src/main/res/layout/fragment_mail.xml" value="0.17798913043478262" />
         <entry key="..\:/Users/Bagus_2/Documents/Tugas/TugasKumpul2/160419082_NewsApp/app/src/main/res/layout/fragment_my_news.xml" value="0.264" />
         <entry key="..\:/Users/Bagus_2/Documents/Tugas/TugasKumpul2/160419082_NewsApp/app/src/main/res/layout/fragment_news_detail.xml" value="0.4" />
         <entry key="..\:/Users/Bagus_2/Documents/Tugas/TugasKumpul2/160419082_NewsApp/app/src/main/res/layout/fragment_news_list.xml" value="0.4" />
         <entry key="..\:/Users/Bagus_2/Documents/Tugas/TugasKumpul2/160419082_NewsApp/app/src/main/res/layout/fragment_profile.xml" value="0.6" />
         <entry key="..\:/Users/Bagus_2/Documents/Tugas/TugasKumpul2/160419082_NewsApp/app/src/main/res/layout/fragment_profile_detail.xml" value="0.259375" />
+        <entry key="..\:/Users/Bagus_2/Documents/Tugas/TugasKumpul2/160419082_NewsApp/app/src/main/res/layout/fragment_register.xml" value="0.264" />
+        <entry key="..\:/Users/Bagus_2/Documents/Tugas/TugasKumpul2/160419082_NewsApp/app/src/main/res/layout/mail_list_item.xml" value="0.259375" />
         <entry key="..\:/Users/Bagus_2/Documents/Tugas/TugasKumpul2/160419082_NewsApp/app/src/main/res/layout/mynews_list_item.xml" value="0.4" />
         <entry key="..\:/Users/Bagus_2/Documents/Tugas/TugasKumpul2/160419082_NewsApp/app/src/main/res/layout/news_list_item.xml" value="0.264" />
         <entry key="..\:/Users/Bagus_2/Documents/Tugas/TugasKumpul2/160419082_NewsApp/app/src/main/res/menu/bottom_menu.xml" value="0.259375" />

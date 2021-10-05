@@ -44,7 +44,7 @@
             android:id="@+id/actionNewsList"
             app:destination="@id/itemHome" />
         <action
-            android:id="@+id/action_itemLogin_to_registerFragment"
+            android:id="@+id/actionRegister"
             app:destination="@id/registerFragment" />
     </fragment>
     <fragment
@@ -80,7 +80,7 @@
     <fragment
         android:id="@+id/profileDetailFragment"
         android:name="com.ubaya.a160419082_newsapp.view.ProfileDetailFragment"
-        android:label="Detail profile"
+        android:label="Detail Profile"
         tools:layout="@layout/fragment_profile_detail">
         <action
             android:id="@+id/actionProfile"
