@@ -25,7 +25,11 @@
         android:id="@+id/itemProfile"
         android:name="com.ubaya.a160419082_newsapp.view.ProfileFragment"
         android:label="Profile"
-        tools:layout="@layout/fragment_profile" />
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/actionProfileDetail"
+            app:destination="@id/profileDetailFragment" />
+    </fragment>
     <fragment
         android:id="@+id/itemMail"
         android:name="com.ubaya.a160419082_newsapp.view.MailFragment"
@@ -72,5 +76,14 @@
         <action
             android:id="@+id/actionLogin2"
             app:destination="@id/itemLogin" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileDetailFragment"
+        android:name="com.ubaya.a160419082_newsapp.view.ProfileDetailFragment"
+        android:label="Detail profile"
+        tools:layout="@layout/fragment_profile_detail">
+        <action
+            android:id="@+id/actionProfile"
+            app:destination="@id/itemProfile" />
     </fragment>
 </navigation>
