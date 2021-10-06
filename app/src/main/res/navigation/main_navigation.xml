@@ -31,11 +31,6 @@
             app:destination="@id/profileDetailFragment" />
     </fragment>
     <fragment
-        android:id="@+id/itemMail"
-        android:name="com.ubaya.a160419082_newsapp.view.MailFragment"
-        android:label="Mail"
-        tools:layout="@layout/fragment_mail" />
-    <fragment
         android:id="@+id/itemLogin"
         android:name="com.ubaya.a160419082_newsapp.view.account.LoginFragment"
         android:label="Login Account"
