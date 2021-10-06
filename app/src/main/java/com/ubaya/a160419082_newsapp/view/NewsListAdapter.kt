@@ -10,7 +10,7 @@ import com.ubaya.a160419082_newsapp.model.News
 import com.ubaya.a160419082_newsapp.util.loadImage
 import kotlinx.android.synthetic.main.news_list_item.view.*
 
-class NewsListAdapter(val newsList:ArrayList<News>): RecyclerView.Adapter<NewsListAdapter.NewsViewHolder>() {
+class   NewsListAdapter(val newsList:ArrayList<News>): RecyclerView.Adapter<NewsListAdapter.NewsViewHolder>() {
     class NewsViewHolder(val view: View):RecyclerView.ViewHolder(view)
 
     fun updateNewsList(newNewsList:List<News>){

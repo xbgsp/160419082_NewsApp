@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main_navigation"
-    app:startDestination="@id/itemHome">
+    app:startDestination="@id/itemLogin">
     <fragment
         android:id="@+id/itemHome"
         android:name="com.ubaya.a160419082_newsapp.view.NewsListFragment"
