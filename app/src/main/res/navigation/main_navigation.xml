@@ -92,7 +92,7 @@
         tools:layout="@layout/fragment_faq" />
     <fragment
         android:id="@+id/addNewsFragment"
-        android:name="com.ubaya.a160419082_newsapp.AddNewsFragment"
+        android:name="com.ubaya.a160419082_newsapp.view.AddNewsFragment"
         android:label="Add News"
         tools:layout="@layout/fragment_add_news">
         <action
