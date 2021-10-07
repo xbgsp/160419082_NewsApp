@@ -30,8 +30,8 @@ class ProfileFragment : Fragment() {
                 "Chris_Hemsworth_by_Gage_Skidmore_2_%28cropped%29.jpg",view.progressBarProfile)
 
         btnDetailProfile.setOnClickListener {
-            val profile = ProfileFragmentDirections.actionProfileDetail()
-            Navigation.findNavController(it).navigate(profile)
+            val action = ProfileFragmentDirections.actionProfileDetail()
+            Navigation.findNavController(it).navigate(action)
         }
     }
 }

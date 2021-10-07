@@ -20,7 +20,11 @@
         android:id="@+id/itemMyNews"
         android:name="com.ubaya.a160419082_newsapp.view.MyNewsFragment"
         android:label="My News"
-        tools:layout="@layout/fragment_my_news" />
+        tools:layout="@layout/fragment_my_news" >
+        <action
+            android:id="@+id/actionAddNews"
+            app:destination="@id/addNewsFragment" />
+    </fragment>
     <fragment
         android:id="@+id/itemProfile"
         android:name="com.ubaya.a160419082_newsapp.view.ProfileFragment"
@@ -86,4 +90,13 @@
         android:name="com.ubaya.a160419082_newsapp.view.FaqFragment"
         android:label="FAQ"
         tools:layout="@layout/fragment_faq" />
+    <fragment
+        android:id="@+id/addNewsFragment"
+        android:name="com.ubaya.a160419082_newsapp.AddNewsFragment"
+        android:label="Add News"
+        tools:layout="@layout/fragment_add_news">
+        <action
+            android:id="@+id/actionMyNews"
+            app:destination="@id/itemMyNews" />
+    </fragment>
 </navigation>

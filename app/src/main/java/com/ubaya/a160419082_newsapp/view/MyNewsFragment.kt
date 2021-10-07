@@ -7,6 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
+import androidx.navigation.Navigation
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.ubaya.a160419082_newsapp.R
 import com.ubaya.a160419082_newsapp.viewmodel.MyNewsViewModel
@@ -26,6 +27,11 @@ class MyNewsFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+
+        fabAdd.setOnClickListener {
+            val action = MyNewsFragmentDirections.actionAddNews()
+            Navigation.findNavController(it).navigate(action)
+        }
 
         viewModel = ViewModelProvider(this).get(MyNewsViewModel::class.java)
         viewModel.refresh()

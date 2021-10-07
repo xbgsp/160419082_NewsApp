@@ -3,10 +3,12 @@ package com.ubaya.a160419082_newsapp.view
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.navigation.Navigation
 import androidx.recyclerview.widget.RecyclerView
 import com.ubaya.a160419082_newsapp.R
 import com.ubaya.a160419082_newsapp.model.MyNews
 import com.ubaya.a160419082_newsapp.util.loadImage
+import kotlinx.android.synthetic.main.fragment_my_news.view.*
 import kotlinx.android.synthetic.main.mynews_list_item.view.*
 
 class MyNewsAdapter(val myNewsList:ArrayList<MyNews>): RecyclerView.Adapter<MyNewsAdapter.MyNewsViewHolder>() {
@@ -30,7 +32,6 @@ class MyNewsAdapter(val myNewsList:ArrayList<MyNews>): RecyclerView.Adapter<MyNe
         holder.view.txtTitleMyNews.text = myNewsList[position].title
         holder.view.txtDescriptionMyNews.text = myNewsList[position].description
         holder.view.imageViewMyNews.loadImage(myNewsList[position].url,holder.view.progressBarMyNews)
-
     }
 
     override fun getItemCount(): Int {
